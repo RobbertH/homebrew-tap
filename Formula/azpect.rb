@@ -1,24 +1,24 @@
 class Azpect < Formula
   desc "Terminal UI for observing the health of Azure APIs (Function Apps, APIM, Container Apps)."
   homepage "https://github.com/RobbertH/azpect"
-  version "0.6.0"
+  version "0.7.0"
   license any_of: ["MIT", "Apache-2.0"]
 
   on_macos do
     on_arm do
-      url "https://github.com/RobbertH/azpect/releases/download/v0.6.0/azpect-v0.6.0-aarch64-apple-darwin.tar.gz"
-      sha256 "64fbeb4d51a1233216340fa8145c345e134d7c40dfd6e44d848924059e3dbe3b"
+      url "https://github.com/RobbertH/azpect/releases/download/v0.7.0/azpect-v0.7.0-aarch64-apple-darwin.tar.gz"
+      sha256 "a8d6b7a6c351c3d304e071e821fe68884e03cb673dbeaeb99d648c01d8f9b5f0"
     end
     on_intel do
-      url "https://github.com/RobbertH/azpect/releases/download/v0.6.0/azpect-v0.6.0-x86_64-apple-darwin.tar.gz"
-      sha256 "27a07ade4fb9221e3360296a2573a0fd44074cd401bd0f16a021273c802d5851"
+      url "https://github.com/RobbertH/azpect/releases/download/v0.7.0/azpect-v0.7.0-x86_64-apple-darwin.tar.gz"
+      sha256 "8c631bf1880d20104ee3f9896ffc9094d103978dd9743bd5921978a1235340ee"
     end
   end
 
   on_linux do
     on_intel do
-      url "https://github.com/RobbertH/azpect/releases/download/v0.6.0/azpect-v0.6.0-x86_64-unknown-linux-gnu.tar.gz"
-      sha256 "c324449eb68f79c98e4d25c17eeea7993fb4be1eb73e647ff0ca6a829de2e409"
+      url "https://github.com/RobbertH/azpect/releases/download/v0.7.0/azpect-v0.7.0-x86_64-unknown-linux-gnu.tar.gz"
+      sha256 "368e945c381dc71cdb71db41b88818853e7b525a533f00d1850dcd5c24ef9032"
     end
   end
 
